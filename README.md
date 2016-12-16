@@ -6,3 +6,4 @@
 #add excute permission to this files 
 #remove /etc/motd
 #create symbolic link : ln -s /var/run/motd /etc/motd 
+#apt-get -s -o Debug::NoLocking=true upgrade | grep ^Inst | wc -l do this at end
