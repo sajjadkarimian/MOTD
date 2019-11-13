@@ -5,7 +5,7 @@ This is how we can have Message Of the Day In Debian Base Systems
 #2)install  `lsb-release python-apt figlet` pakages :
 <code>sudo apt install lsb-release python-apt figlet </code>
 
-#3)create a directory  /etc/update-motd.d/ if not exists (do backup if directory exists)
+#3)create a directory  `/etc/update-motd.d/` if not exists (do backup if directory exists)
 
 #4)Inside this path create this files : 00-header ,  10-sysinfo ,  20-update ,  99-footer
 
